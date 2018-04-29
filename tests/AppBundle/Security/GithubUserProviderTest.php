@@ -68,7 +68,6 @@ class GithubUserProviderTest extends \PHPUnit_Framework_TestCase
             ->method('get')
             ->willReturn($this->response)
         ;
-
         $this->response
             ->expects($this->once())
             ->method('getBody')
